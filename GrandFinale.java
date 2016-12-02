@@ -10,6 +10,7 @@ public class GrandFinale {
 		public ArrayList<Integer> junctions = new ArrayList<Integer>();
 		public void resetJunctionCounter(){
 			junctionCounter = 0;
+			junctions = new ArrayList<Integer>();
 		}
 		public void add(int arrived){
 			this.junctions.add(arrived);
@@ -74,6 +75,7 @@ public class GrandFinale {
 		return direction;
 	}
 	public void reset(){
+		pollRun = 0;
 		robotData.resetJunctionCounter();
 		explorerMode=1;
 	}
