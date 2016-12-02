@@ -23,7 +23,7 @@ public class Ex3 {
 
         public void printJunction() {
             int dir = junctions.get(junctions.size() - 1);
-            int index = junctions.indexOf(dir);
+            int index = junctions.lastIndexOf(dir);
             String str = direction(dir);
             System.out.println("Junction " + index + " heading " + str);
         }
@@ -120,7 +120,7 @@ public class Ex3 {
             }
             System.out.println("############################");
             int dir2 = robotData.junctions.get(junctionSize);
-            int dir = IRobot.NORTH + ((dir2 + 2) % 4 + 4) % 4;
+            int dir = IRobot.NORTH + (((dir2-IRobot.NORTH) + 2) % 4 + 4) % 4;
             robotData.junctions.remove(junctionSize);
             err2 = "pulled of " + direction(dir2) + " | new direction: " + direction(dir)+" | new size: "+ robotData.junctions.size();
             //neverBefore(robot,heading);
