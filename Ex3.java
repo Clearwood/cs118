@@ -67,8 +67,6 @@ public class Ex3 {
                 direction = corridor(robot, exits);
                 break;
             case 3:
-                //direction = junction(robot, exits);
-                //break;
             case 4:
                 direction = crossRoad(robot, exits);
                 break;
@@ -113,7 +111,7 @@ public class Ex3 {
         String err2;
         //passageSize == 3 && exits.size() == 4 || passageSize==2 && exits.size()==3
         if (explorerMode==1) {
-            System.out.println("Explorer Mode: 1 | passage Size: " + passageSize + "exit size: " + exits.size());
+            System.out.println("Explorer Mode: 1 | passage Size: " + passageSize + " exit size: " + exits.size());
             neverBefore(robot, heading);
         }
         if (passageSize != 0) {

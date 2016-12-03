@@ -66,8 +66,6 @@ public class GrandFinale {
 				direction = corridor(robot, exits);
 				break;
 			case 3:
-				direction = junction(robot, exits);
-				break;
 			case 4:
 				direction = crossRoad(robot, exits);
 				break;
@@ -87,7 +85,16 @@ public class GrandFinale {
 		return robot.look(absolute);
 
 	}
-
+	private void printJunction(){
+		System.out.println("############################");
+		for(int i = 0; i< robotData.junctions.size(); i++){
+			System.out.println("i: " + i + " direction: "+ direction(robotData.junctions.get(i)));
+		}
+		System.out.println("############################");
+	}
+	private void println(String str){
+		System.out.println(str);
+	}
 
 	private int deadEnd (IRobot robot, ArrayList<Integer> exits){
 		explorerMode = 0;
@@ -99,26 +106,46 @@ public class GrandFinale {
 			int heading = robot.getHeading();
 			ArrayList<Integer> passage = passageExits(robot);
 			int passageSize = passage.size();
-			if (passageSize == 3){
+			//System.out.println("Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
+			String err2;
+			//passageSize == 3 && exits.size() == 4 || passageSize==2 && exits.size()==3
+			if (explorerMode==1) {
+				System.out.println("Explorer Mode: 1 | passage Size: " + passageSize + "exit size: " + exits.size());
 				neverBefore(robot, heading);
 			}
-			if(passageSize!=0){
-				explorerMode=1;
+			if (passageSize != 0) {
+				explorerMode = 1;
 				return passage.get(randomizer(passageSize));
-			} else{
-					if(explorerMode==1){
-						explorerMode=0;
-						return IRobot.NORTH+(((robot.getHeading()+2)%4+4)%4);
-					} else{
-						int dir = IRobot.NORTH+(((robotData.junctions.get(robotData.junctions.size()-1)+2)%4+4)%4);
-						robotData.junctions.remove(robotData.junctions.size()-1);
-						return dir;
-					}			
-
+			} else {
+				if (explorerMode == 1) {
+					println("Junction | Explorer Mode: 1 | passage Size: " + passageSize + " exit size: " + exits.size());
+					explorerMode = 0;
+					//neverBefore(robot, heading);
+					return IRobot.NORTH + ((((heading - IRobot.NORTH) + 2) % 4 + 4) % 4);
+				}
+				int junctionSize = robotData.junctions.size() - 1;
+				//System.out.println("old table: ");
+				//printJunction();
+				int dir2 = robotData.junctions.get(junctionSize);
+				int dir = IRobot.NORTH + (((dir2-IRobot.NORTH) + 2) % 4 + 4) % 4;
+				robotData.junctions.remove(junctionSize);
+				err2 = "pulled of " + direction(dir2) + " | new direction: " + direction(dir)+" | new size: "+ robotData.junctions.size();
+				//neverBefore(robot,heading);
+				println("---------------------------------");
+				System.out.println("Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
+				wall(dir, robot, junctionSize);
+				//System.out.println(err1);
+				System.out.println(err2);
+				println("---------------------------------");
+				//System.out.println("new table: ");
+				//printJunction();
+				return dir;
 			}
 		} else {
+
 			junctionCounter++;
 			System.out.println(junctionCounter);
+			printJunction();
 			if(junctionCounter<robotData.junctions.size()){
 				System.out.println("not last");
 				return robotData.junctions.get(junctionCounter);
@@ -132,44 +159,9 @@ public class GrandFinale {
 		robotData.add(heading);
 		junctionCounter++;
 	}
-	private int junction (IRobot robot, ArrayList<Integer> exits){
-		if(explore==1){
-			int heading = robot.getHeading();
-			ArrayList<Integer> passage = passageExits(robot);
-			int passageSize = passage.size();
-			switch(passageSize){
-				case 2:
-					neverBefore(robot, heading);
-				case 1:
-					explorerMode=1;
-					return passage.get(randomizer(passageSize));	
-				default: 
-					if(explorerMode==1){
-						explorerMode=0;
-						return IRobot.NORTH+(((robot.getHeading()+2)%4+4)%4);
-					} else{
-						int dir = IRobot.NORTH+(((robotData.junctions.get(robotData.junctions.size()-1)+2)%4+4)%4);
-						robotData.junctions.remove(robotData.junctions.size()-1);
-						return dir;
-					}			
 
-			}
-
-		} else {
-			junctionCounter++;
-			if(junctionCounter<robotData.junctions.size()){
-				System.out.println("not last");
-				return robotData.junctions.get(junctionCounter);
-			} else{
-				System.out.println("last");
-				return lastDir(robot);
-			}
-		}	
-
-	}
 	private int randomizer (int n){
 		return (int) (Math.random()*n);
-
 	}
 	private int lastDir(IRobot robot){
 		if(robot.getLocation().x<robot.getTargetLocation().x){
@@ -182,6 +174,17 @@ public class GrandFinale {
 			return IRobot.NORTH;
 		}
 	}
+	private void wall(int dir, IRobot robot, int junctionSize){
+		if (lookHeading(dir, robot) == IRobot.WALL) {
+			System.out.println("WALL AHEAD!");
+			System.out.println("size junctions -1: "+junctionSize);
+			printJunction();
+		} else{
+			System.out.println("NO WALL");
+			System.out.println("size junctions -1: "+junctionSize);
+		}
+
+	}
 	private int corridor(IRobot robot, ArrayList<Integer> exits){
 		int heading = robot.getHeading();
 		ArrayList<Integer> passage = passageExits(robot);
@@ -189,29 +192,69 @@ public class GrandFinale {
 		int index = exits.indexOf(coming);
 		int going = exits.indexOf(robot.getHeading());
 		System.out.println(print(coming));
-		if(going!=-1){
-			if(index!=-1){
-				exits.remove(index);	
-			}
-			return exits.get(0);
-		} else{
+
 			if(explore==1){
-				if(passage.size()>=1){
+				int indexGo = exits.indexOf(coming);
+				int indexTo = exits.indexOf(heading);
+				int passageSize = passage.size();
+				//System.out.println( "Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
+				String err2;
+				if(indexTo!= -1) {
+					//System.out.println("We are in a corridor.");
+					if(passage.size()>=1 || explorerMode == 0) {
+						if (indexGo != -1) {
+							exits.remove(indexGo);
+							return exits.get(0);
+						} else {
+							return exits.get(randomizer(2));
+						}
+					} else{
+						explorerMode = 0;
+						return coming;
+					}
+				}
+				if(explorerMode==1){
+					System.out.println("Corridor | Explorer Mode: 1 | passage Size: " + passageSize + " exit size: " + exits.size());
 					neverBefore(robot, heading);
-					System.out.println("corridor");
+				}
+				//not meant to go into junctions
+				if(passage.size()>=1){
 					explorerMode=1;
-					return passage.get(randomizer(passage.size()));
-				} else{ 
+					exits.remove(indexGo);
+					return exits.get(0);
+				} else{
 					if(explorerMode==1){
 						explorerMode=0;
-						return IRobot.NORTH+(((robot.getHeading()+2)%4+4)%4);
+						return coming;
 					} else{
-						int dir = IRobot.NORTH+(((robotData.junctions.get(robotData.junctions.size()-1)+2)%4+4)%4);
-						robotData.junctions.remove(robotData.junctions.size()-1);
+						System.out.println("---------------------------------");
+						System.out.println("Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
+						System.out.println("CORNER");
+						int junctionSize = robotData.junctions.size() - 1;
+
+						//System.out.println("old table: ");
+						//printJunction();
+
+						int dir2 = robotData.junctions.get(junctionSize);
+						int dir = IRobot.NORTH + (((dir2-IRobot.NORTH) + 2) % 4 + 4) % 4;
+
+						robotData.junctions.remove(junctionSize);
+						err2 = "pulled of " + direction(dir2) + " | new direction: " + direction(dir)+" | new size: "+ robotData.junctions.size();
+						wall(dir, robot, junctionSize);
+						System.out.println(err2);
+						System.out.println("---------------------------------");
+						//System.out.println("new table: ");
+						//printJunction();
 						return dir;
-					}			
+					}
 				}
-			} else {
+			} else if(going!=-1){
+				if(index!=-1){
+					exits.remove(index);
+				}
+				return exits.get(0);
+			}
+			else {
 				junctionCounter++;
 				if(junctionCounter<robotData.junctions.size()){
 					System.out.println("not last");
@@ -221,8 +264,21 @@ public class GrandFinale {
 					return lastDir(robot);
 				}
 			}	
-		}
 
+
+	}
+	private String direction(int dir) {
+		switch (dir) {
+			case IRobot.NORTH:
+				return "NORTH";
+			case IRobot.SOUTH:
+				return "SOUTH";
+			case IRobot.WEST:
+				return "WEST";
+			case IRobot.EAST:
+				return "EAST";
+		}
+		return "";
 	}
 	//checks if there is a wall in the direction to the robot which was parsed in
 	private int noWallAhead(int direction, IRobot robot) {
