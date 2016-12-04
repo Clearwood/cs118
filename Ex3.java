@@ -96,11 +96,11 @@ public class Ex3 {
         return exits.get(0);
     }
     private void printJunction(){
-        System.out.println("############################");
+        printHash();
         for(int i = 0; i< robotData.junctions.size(); i++){
             System.out.println("i: " + i + " direction: "+ direction(robotData.junctions.get(i)));
         }
-        System.out.println("############################");
+        printHash();
     }
     private int crossRoad(IRobot robot, ArrayList<Integer> exits) {
         //printJunction();
@@ -160,9 +160,10 @@ public class Ex3 {
     }
     private int randomizer(int n) {
         return (int) (Math.random() * n);
-
     }
-
+    private void printHash(){
+        println("##################################");
+    }
     private int corridor(IRobot robot, ArrayList<Integer> exits) {
         int heading = robot.getHeading();
         ArrayList<Integer> passage = passageExits(robot);
@@ -173,7 +174,7 @@ public class Ex3 {
         //System.out.println( "Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
         String err2;
         if(indexTo!= -1) {
-            //System.out.println("We are in a corridor.");
+
             if(passage.size()>=1 || explorerMode == 0) {
                 if (indexGo != -1) {
                     exits.remove(indexGo);
@@ -190,7 +191,7 @@ public class Ex3 {
             System.out.println("Corridor | Explorer Mode: 1 | passage Size: " + passageSize + " exit size: " + exits.size());
             neverBefore(robot, heading);
         }
-        //not meant to go into junctions
+
         if(passage.size()>=1){
             explorerMode=1;
             exits.remove(indexGo);
