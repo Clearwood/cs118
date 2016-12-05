@@ -1,4 +1,5 @@
 import uk.ac.warwick.dcs.maze.logic.IRobot;
+import java.awt.*;
 
 import java.util.*;
 
@@ -6,11 +7,10 @@ public class Ex3 {
     private int pollRun = 0;
     private static int maxJunctions = 10000;
     private static int junctionCounter;
-    private int explorerMode;
+    private int explorerMode = 1;
 
     class RobotData {
         public ArrayList<Integer> junctions = new ArrayList<Integer>();
-
         public void resetJunctionCounter() {
             junctionCounter = 0;
             junctions = new ArrayList<Integer>();
@@ -48,11 +48,10 @@ public class Ex3 {
     public void controlRobot(IRobot robot) {
         if ((robot.getRuns() == 0) && (pollRun == 0)) {
             robotData = new RobotData();
-            explorerMode = 1;
         }
-        int direction = exploreControl(robot);
+        printJunction();
+        robot.setHeading(exploreControl(robot));
         pollRun++;
-        robot.setHeading(direction);
     }
 
     public int exploreControl(IRobot robot) {
@@ -92,7 +91,9 @@ public class Ex3 {
         System.out.println(str);
     }
     private int deadEnd(IRobot robot, ArrayList<Integer> exits) {
-        explorerMode = 0;
+        if(pollRun != 0) {
+            explorerMode = 0;
+        }
         return exits.get(0);
     }
     private void printJunction(){
@@ -103,14 +104,11 @@ public class Ex3 {
         printHash();
     }
     private int crossRoad(IRobot robot, ArrayList<Integer> exits) {
-        //printJunction();
         int heading = robot.getHeading();
         ArrayList<Integer> passage = passageExits(robot);
         int passageSize = passage.size();
-        //System.out.println("Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
         String err2;
-        //passageSize == 3 && exits.size() == 4 || passageSize==2 && exits.size()==3
-        if (explorerMode==1) {
+        if (explorerMode==1 && passageSize >= 1 && (pollRun != 0)) {
             System.out.println("Explorer Mode: 1 | passage Size: " + passageSize + " exit size: " + exits.size());
             neverBefore(robot, heading);
         }
@@ -121,25 +119,18 @@ public class Ex3 {
             if (explorerMode == 1) {
                 println("Junction | Explorer Mode: 1 | passage Size: " + passageSize + " exit size: " + exits.size());
                 explorerMode = 0;
-                //neverBefore(robot, heading);
                 return IRobot.NORTH + ((((heading - IRobot.NORTH) + 2) % 4 + 4) % 4);
             }
             int junctionSize = robotData.junctions.size() - 1;
-            //System.out.println("old table: ");
-            //printJunction();
             int dir2 = robotData.junctions.get(junctionSize);
             int dir = IRobot.NORTH + (((dir2-IRobot.NORTH) + 2) % 4 + 4) % 4;
             robotData.junctions.remove(junctionSize);
             err2 = "pulled of " + direction(dir2) + " | new direction: " + direction(dir)+" | new size: "+ robotData.junctions.size();
-            //neverBefore(robot,heading);
             println("---------------------------------");
-            System.out.println("Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
+            println("Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
             wall(dir, robot, junctionSize);
-            //System.out.println(err1);
-            System.out.println(err2);
+            println(err2);
             println("---------------------------------");
-            //System.out.println("new table: ");
-            //printJunction();
             return dir;
         }
     }
@@ -171,10 +162,8 @@ public class Ex3 {
         int indexGo = exits.indexOf(coming);
         int indexTo = exits.indexOf(heading);
         int passageSize = passage.size();
-        //System.out.println( "Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
         String err2;
-        if(indexTo!= -1) {
-
+        if(indexTo != -1) {
             if(passage.size()>=1 || explorerMode == 0) {
                 if (indexGo != -1) {
                     exits.remove(indexGo);
@@ -187,7 +176,7 @@ public class Ex3 {
                 return coming;
             }
         }
-        if(explorerMode==1){
+        if(explorerMode==1 && passageSize >= 1  && (pollRun != 0) ){
             System.out.println("Corridor | Explorer Mode: 1 | passage Size: " + passageSize + " exit size: " + exits.size());
             neverBefore(robot, heading);
         }
@@ -205,20 +194,14 @@ public class Ex3 {
                 System.out.println("Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
                 System.out.println("CORNER");
                 int junctionSize = robotData.junctions.size() - 1;
-
-                //System.out.println("old table: ");
-                //printJunction();
-
                 int dir2 = robotData.junctions.get(junctionSize);
                 int dir = IRobot.NORTH + (((dir2-IRobot.NORTH) + 2) % 4 + 4) % 4;
-
                 robotData.junctions.remove(junctionSize);
                 err2 = "pulled of " + direction(dir2) + " | new direction: " + direction(dir)+" | new size: "+ robotData.junctions.size();
                 wall(dir, robot, junctionSize);
                 System.out.println(err2);
                 System.out.println("---------------------------------");
-                //System.out.println("new table: ");
-                //printJunction();
+
                 return dir;
             }
         }

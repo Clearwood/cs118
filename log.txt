@@ -1,43 +1,3602 @@
-Junction 0 heading EAST
-Junction 1 heading NORTH
-Junction 0 heading EAST
-Junction 3 heading SOUTH
-Junction 0 heading EAST
-Junction 0 heading EAST
-Junction 3 heading SOUTH
-Junction 3 heading SOUTH
-Junction 0 heading EAST
-Junction 3 heading SOUTH
-Junction 3 heading SOUTH
-Junction 10 heading WEST
-Junction 1 heading NORTH
-Junction 10 heading WEST
-Junction 10 heading WEST
-Junction 1 heading NORTH
-Junction 3 heading SOUTH
-Junction 3 heading SOUTH
-Junction 0 heading EAST
+first Run
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 0 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 1 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 2 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 3 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 4 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 5 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 6 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 7 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 8 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 8
+pulled of SOUTH | new direction: NORTH | new size: 8
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 8 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 9 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 9
+pulled of WEST | new direction: EAST | new size: 9
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 8
+pulled of WEST | new direction: EAST | new size: 8
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 8 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 9 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 10 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 11 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
 Junction 12 heading WEST
-Junction 3 heading SOUTH
-Junction 1 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 13 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 14 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 15 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 15
+pulled of NORTH | new direction: SOUTH | new size: 15
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 14
+pulled of WEST | new direction: EAST | new size: 14
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 13
+pulled of WEST | new direction: EAST | new size: 13
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 12
+pulled of WEST | new direction: EAST | new size: 12
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 12 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 12
+pulled of SOUTH | new direction: NORTH | new size: 12
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 11
+pulled of WEST | new direction: EAST | new size: 11
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 11 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 12 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 13 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 14 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 15 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 15
+pulled of WEST | new direction: EAST | new size: 15
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 14
+pulled of WEST | new direction: EAST | new size: 14
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 14 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 15 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 16 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 17 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 18 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 19 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 20 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 21 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 22 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 22
+pulled of WEST | new direction: EAST | new size: 22
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 22 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 23 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 24 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 24
+pulled of WEST | new direction: EAST | new size: 24
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 23
+pulled of NORTH | new direction: SOUTH | new size: 23
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 22
+pulled of NORTH | new direction: SOUTH | new size: 22
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 21
+pulled of WEST | new direction: EAST | new size: 21
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 20
+pulled of WEST | new direction: EAST | new size: 20
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 19
+pulled of NORTH | new direction: SOUTH | new size: 19
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 18
+pulled of WEST | new direction: EAST | new size: 18
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 18 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 19 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 19
+pulled of NORTH | new direction: SOUTH | new size: 19
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 18
+pulled of NORTH | new direction: SOUTH | new size: 18
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 17
+pulled of NORTH | new direction: SOUTH | new size: 17
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 17 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 17
+pulled of WEST | new direction: EAST | new size: 17
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 16
+pulled of NORTH | new direction: SOUTH | new size: 16
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 15
+pulled of NORTH | new direction: SOUTH | new size: 15
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 15 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 17 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 18 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 19 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 20 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 21 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 22 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 23 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 24 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 25 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 26 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 27 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 28 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 29
+pulled of SOUTH | new direction: NORTH | new size: 29
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 28
+pulled of WEST | new direction: EAST | new size: 28
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 28 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading EAST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 29
+pulled of EAST | new direction: WEST | new size: 29
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 29 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 30
+pulled of WEST | new direction: EAST | new size: 30
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 30
+pulled of NORTH | new direction: SOUTH | new size: 30
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 29
+pulled of WEST | new direction: EAST | new size: 29
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 28
+pulled of NORTH | new direction: SOUTH | new size: 28
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 27
+pulled of NORTH | new direction: SOUTH | new size: 27
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 26
+pulled of NORTH | new direction: SOUTH | new size: 26
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 26 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 27 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 28 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 31 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 31
+pulled of WEST | new direction: EAST | new size: 31
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 30
+pulled of WEST | new direction: EAST | new size: 30
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 29
+pulled of WEST | new direction: EAST | new size: 29
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 28
+pulled of WEST | new direction: EAST | new size: 28
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 27
+pulled of WEST | new direction: EAST | new size: 27
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 26
+pulled of WEST | new direction: EAST | new size: 26
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 25
+pulled of WEST | new direction: EAST | new size: 25
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 24
+pulled of WEST | new direction: EAST | new size: 24
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 23
+pulled of WEST | new direction: EAST | new size: 23
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 23 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 23
+pulled of SOUTH | new direction: NORTH | new size: 23
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 22
+pulled of WEST | new direction: EAST | new size: 22
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 21
+pulled of WEST | new direction: EAST | new size: 21
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 20
+pulled of WEST | new direction: EAST | new size: 20
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 19
+pulled of WEST | new direction: EAST | new size: 19
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 0 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 1 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 2 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 3 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 4 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 5 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 6 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 7 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 8 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 9 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 9
+pulled of SOUTH | new direction: NORTH | new size: 9
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 9 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 10 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 11 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
 Junction 12 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 13 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 13
+pulled of SOUTH | new direction: NORTH | new size: 13
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 13 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 14 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 15 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 16
+pulled of NORTH | new direction: SOUTH | new size: 16
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 15
+pulled of WEST | new direction: EAST | new size: 15
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 14
+pulled of WEST | new direction: EAST | new size: 14
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 13
+pulled of WEST | new direction: EAST | new size: 13
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 12
+pulled of WEST | new direction: EAST | new size: 12
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 12 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 13 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 14 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 15 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 17 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 18 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 19 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 20 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 21 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 22 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 23 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 24 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 24
+pulled of SOUTH | new direction: NORTH | new size: 24
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 24 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 25 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 26 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 27 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 28 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 30
+pulled of SOUTH | new direction: NORTH | new size: 30
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 29
+pulled of WEST | new direction: EAST | new size: 29
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 30 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 31 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 31
+pulled of NORTH | new direction: SOUTH | new size: 31
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 31 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 31
+pulled of WEST | new direction: EAST | new size: 31
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 30
+pulled of WEST | new direction: EAST | new size: 30
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading EAST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 30
+pulled of EAST | new direction: WEST | new size: 30
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 29
+pulled of NORTH | new direction: SOUTH | new size: 29
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 28
+pulled of NORTH | new direction: SOUTH | new size: 28
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 27
+pulled of NORTH | new direction: SOUTH | new size: 27
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 27 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 28 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 31 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 32 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 32
+pulled of WEST | new direction: EAST | new size: 32
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 31
+pulled of WEST | new direction: EAST | new size: 31
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 30
+pulled of WEST | new direction: EAST | new size: 30
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 29
+pulled of WEST | new direction: EAST | new size: 29
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 28
+pulled of WEST | new direction: EAST | new size: 28
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 27
+pulled of WEST | new direction: EAST | new size: 27
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 26
+pulled of WEST | new direction: EAST | new size: 26
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 25
+pulled of WEST | new direction: EAST | new size: 25
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 24
+pulled of WEST | new direction: EAST | new size: 24
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 23
+pulled of WEST | new direction: EAST | new size: 23
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 22
+pulled of WEST | new direction: EAST | new size: 22
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 21
+pulled of WEST | new direction: EAST | new size: 21
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 20
+pulled of WEST | new direction: EAST | new size: 20
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 0 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 1 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 2 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 3 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 4 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 5 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 6 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 7 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 8 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 9 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 10 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 11 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 12 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 13 heading SOUTH
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 14 heading NORTH
+Explorer Mode: 1 | passage Size: 0 exit size: 3
+Junction 15 heading EAST
+Junction | Explorer Mode: 1 | passage Size: 0 exit size: 3
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+WALL AHEAD!
+size junctions -1: 15
+##################################
+i: 0 direction: EAST
+i: 1 direction: SOUTH
+i: 2 direction: EAST
+i: 3 direction: NORTH
+i: 4 direction: EAST
+i: 5 direction: SOUTH
+i: 6 direction: EAST
+i: 7 direction: NORTH
+i: 8 direction: EAST
+i: 9 direction: SOUTH
+i: 10 direction: EAST
+i: 11 direction: SOUTH
+i: 12 direction: WEST
+i: 13 direction: SOUTH
+i: 14 direction: NORTH
+##################################
+pulled of EAST | new direction: WEST | new size: 15
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 14
+pulled of NORTH | new direction: SOUTH | new size: 14
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 14 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 15 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 17 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 18 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 19 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 20 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 21 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 22 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 23 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 24 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 24
+pulled of NORTH | new direction: SOUTH | new size: 24
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 24 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 25 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 26 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 27 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 28 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 31 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 32 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 33 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 34 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 35 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 36 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 37 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 38 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 39 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 40 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 41 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 42 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 43 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 44 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 45 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 46 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 47 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 48 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 49 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 50 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 51 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 52 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 53 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 54 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 55 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 56 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 57 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 58 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 59 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 60 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 61 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 62 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 63 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 64 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 65 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 66 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 66
+pulled of SOUTH | new direction: NORTH | new size: 66
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 65
+pulled of EAST | new direction: WEST | new size: 65
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 64
+pulled of NORTH | new direction: SOUTH | new size: 64
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 63
+pulled of EAST | new direction: WEST | new size: 63
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 62
+pulled of NORTH | new direction: SOUTH | new size: 62
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 62 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 63 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 63
+pulled of WEST | new direction: EAST | new size: 63
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 62
+pulled of SOUTH | new direction: NORTH | new size: 62
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 61
+pulled of WEST | new direction: EAST | new size: 61
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 60
+pulled of WEST | new direction: EAST | new size: 60
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 59
+pulled of WEST | new direction: EAST | new size: 59
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 58
+pulled of NORTH | new direction: SOUTH | new size: 58
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 57
+pulled of EAST | new direction: WEST | new size: 57
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 56
+pulled of EAST | new direction: WEST | new size: 56
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 55
+pulled of NORTH | new direction: SOUTH | new size: 55
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 54
+pulled of WEST | new direction: EAST | new size: 54
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 53
+pulled of WEST | new direction: EAST | new size: 53
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 52
+pulled of WEST | new direction: EAST | new size: 52
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 52 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 53 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 54 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 55 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 56 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 57 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 58 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 59 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 60 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 61 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 62 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 63 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 64 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 65 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 66 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 67 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 68 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 69 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 70 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 71 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 72 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 72
+pulled of NORTH | new direction: SOUTH | new size: 72
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 71
+pulled of WEST | new direction: EAST | new size: 71
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 71 heading EAST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 71
+pulled of EAST | new direction: WEST | new size: 71
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 70
+pulled of SOUTH | new direction: NORTH | new size: 70
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 69
+pulled of WEST | new direction: EAST | new size: 69
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 68
+pulled of WEST | new direction: EAST | new size: 68
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 67
+pulled of WEST | new direction: EAST | new size: 67
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 66
+pulled of WEST | new direction: EAST | new size: 66
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 66 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 66
+pulled of NORTH | new direction: SOUTH | new size: 66
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 65
+pulled of WEST | new direction: EAST | new size: 65
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 64
+pulled of SOUTH | new direction: NORTH | new size: 64
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 63
+pulled of EAST | new direction: WEST | new size: 63
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 63 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 64 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 65 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 66 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 67 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 68 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 69 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 70 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 71 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 72 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 73 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 74 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 75 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 76 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 77 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 78 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 79 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 80 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 81 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 82 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 83 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 84 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 85 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 86 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 87 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 88 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 88
+pulled of NORTH | new direction: SOUTH | new size: 88
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 87
+pulled of EAST | new direction: WEST | new size: 87
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 86
+pulled of SOUTH | new direction: NORTH | new size: 86
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 85
+pulled of EAST | new direction: WEST | new size: 85
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 84
+pulled of NORTH | new direction: SOUTH | new size: 84
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 83
+pulled of EAST | new direction: WEST | new size: 83
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 83 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 84 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 85 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 85
+pulled of SOUTH | new direction: NORTH | new size: 85
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 84
+pulled of WEST | new direction: EAST | new size: 84
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 83
+pulled of SOUTH | new direction: NORTH | new size: 83
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 82
+pulled of EAST | new direction: WEST | new size: 82
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 81
+pulled of SOUTH | new direction: NORTH | new size: 81
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 81 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 82 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 83 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 84 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 85 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 86 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 87 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 88 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 89 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 90 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 91 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 92 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 93 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 94 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 95 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 96 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 97 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 98 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 99 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 100 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 101 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 101
+pulled of WEST | new direction: EAST | new size: 101
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 100
+pulled of WEST | new direction: EAST | new size: 100
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 100 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 101 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 102 heading WEST
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 103 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 104 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 105 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 105
+pulled of WEST | new direction: EAST | new size: 105
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 105 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 106 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 107 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 108 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 109 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 110 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 111 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 112 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 113 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 114 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 115 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 116 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 116
+pulled of NORTH | new direction: SOUTH | new size: 116
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 116 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 117 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 117
+pulled of SOUTH | new direction: NORTH | new size: 117
+---------------------------------
+Explorer Mode: 1 | passage Size: 0 exit size: 3
+Junction 117 heading WEST
+Junction | Explorer Mode: 1 | passage Size: 0 exit size: 3
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+WALL AHEAD!
+size junctions -1: 117
+##################################
+i: 0 direction: EAST
+i: 1 direction: SOUTH
+i: 2 direction: EAST
+i: 3 direction: NORTH
+i: 4 direction: EAST
+i: 5 direction: SOUTH
+i: 6 direction: EAST
+i: 7 direction: NORTH
+i: 8 direction: EAST
+i: 9 direction: SOUTH
+i: 10 direction: EAST
+i: 11 direction: SOUTH
+i: 12 direction: WEST
+i: 13 direction: SOUTH
+i: 14 direction: SOUTH
+i: 15 direction: WEST
+i: 16 direction: SOUTH
+i: 17 direction: WEST
+i: 18 direction: NORTH
+i: 19 direction: WEST
+i: 20 direction: NORTH
+i: 21 direction: WEST
+i: 22 direction: WEST
+i: 23 direction: WEST
+i: 24 direction: SOUTH
+i: 25 direction: EAST
+i: 26 direction: SOUTH
+i: 27 direction: WEST
+i: 28 direction: SOUTH
+i: 29 direction: SOUTH
+i: 30 direction: SOUTH
+i: 31 direction: SOUTH
+i: 32 direction: EAST
+i: 33 direction: EAST
+i: 34 direction: EAST
+i: 35 direction: NORTH
+i: 36 direction: EAST
+i: 37 direction: EAST
+i: 38 direction: EAST
+i: 39 direction: SOUTH
+i: 40 direction: EAST
+i: 41 direction: SOUTH
+i: 42 direction: WEST
+i: 43 direction: WEST
+i: 44 direction: WEST
+i: 45 direction: SOUTH
+i: 46 direction: EAST
+i: 47 direction: SOUTH
+i: 48 direction: EAST
+i: 49 direction: EAST
+i: 50 direction: EAST
+i: 51 direction: SOUTH
+i: 52 direction: EAST
+i: 53 direction: NORTH
+i: 54 direction: WEST
+i: 55 direction: NORTH
+i: 56 direction: EAST
+i: 57 direction: EAST
+i: 58 direction: EAST
+i: 59 direction: EAST
+i: 60 direction: EAST
+i: 61 direction: EAST
+i: 62 direction: EAST
+i: 63 direction: NORTH
+i: 64 direction: WEST
+i: 65 direction: WEST
+i: 66 direction: NORTH
+i: 67 direction: EAST
+i: 68 direction: EAST
+i: 69 direction: NORTH
+i: 70 direction: WEST
+i: 71 direction: NORTH
+i: 72 direction: NORTH
+i: 73 direction: WEST
+i: 74 direction: WEST
+i: 75 direction: NORTH
+i: 76 direction: WEST
+i: 77 direction: WEST
+i: 78 direction: SOUTH
+i: 79 direction: SOUTH
+i: 80 direction: WEST
+i: 81 direction: NORTH
+i: 82 direction: NORTH
+i: 83 direction: WEST
+i: 84 direction: WEST
+i: 85 direction: NORTH
+i: 86 direction: EAST
+i: 87 direction: EAST
+i: 88 direction: EAST
+i: 89 direction: EAST
+i: 90 direction: EAST
+i: 91 direction: NORTH
+i: 92 direction: WEST
+i: 93 direction: NORTH
+i: 94 direction: WEST
+i: 95 direction: WEST
+i: 96 direction: NORTH
+i: 97 direction: NORTH
+i: 98 direction: EAST
+i: 99 direction: NORTH
+i: 100 direction: EAST
+i: 101 direction: SOUTH
+i: 102 direction: WEST
+i: 103 direction: WEST
+i: 104 direction: SOUTH
+i: 105 direction: EAST
+i: 106 direction: EAST
+i: 107 direction: SOUTH
+i: 108 direction: EAST
+i: 109 direction: EAST
+i: 110 direction: EAST
+i: 111 direction: SOUTH
+i: 112 direction: SOUTH
+i: 113 direction: WEST
+i: 114 direction: NORTH
+i: 115 direction: WEST
+i: 116 direction: SOUTH
+##################################
+pulled of WEST | new direction: EAST | new size: 117
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 116
+pulled of SOUTH | new direction: NORTH | new size: 116
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 115
+pulled of WEST | new direction: EAST | new size: 115
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 114
+pulled of NORTH | new direction: SOUTH | new size: 114
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 113
+pulled of WEST | new direction: EAST | new size: 113
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 113 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 113
+pulled of SOUTH | new direction: NORTH | new size: 113
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 112
+pulled of SOUTH | new direction: NORTH | new size: 112
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 111
+pulled of SOUTH | new direction: NORTH | new size: 111
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 111 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 112 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 113 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 114 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 114
+pulled of SOUTH | new direction: NORTH | new size: 114
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 113
+pulled of SOUTH | new direction: NORTH | new size: 113
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 112
+pulled of NORTH | new direction: SOUTH | new size: 112
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 111
+pulled of NORTH | new direction: SOUTH | new size: 111
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 110
+pulled of EAST | new direction: WEST | new size: 110
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 109
+pulled of EAST | new direction: WEST | new size: 109
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 108
+pulled of EAST | new direction: WEST | new size: 108
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 107
+pulled of SOUTH | new direction: NORTH | new size: 107
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 106
+pulled of EAST | new direction: WEST | new size: 106
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 105
+pulled of EAST | new direction: WEST | new size: 105
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 104
+pulled of SOUTH | new direction: NORTH | new size: 104
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 103
+pulled of WEST | new direction: EAST | new size: 103
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 102
+pulled of WEST | new direction: EAST | new size: 102
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 101
+pulled of SOUTH | new direction: NORTH | new size: 101
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 100
+pulled of EAST | new direction: WEST | new size: 100
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 99
+pulled of NORTH | new direction: SOUTH | new size: 99
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 98
+pulled of EAST | new direction: WEST | new size: 98
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 97
+pulled of NORTH | new direction: SOUTH | new size: 97
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 96
+pulled of NORTH | new direction: SOUTH | new size: 96
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 96 heading EAST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 96
+pulled of EAST | new direction: WEST | new size: 96
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 96 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 96
+pulled of WEST | new direction: EAST | new size: 96
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 95
+pulled of WEST | new direction: EAST | new size: 95
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 94
+pulled of WEST | new direction: EAST | new size: 94
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 93
+pulled of NORTH | new direction: SOUTH | new size: 93
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 92
+pulled of WEST | new direction: EAST | new size: 92
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 91
+pulled of NORTH | new direction: SOUTH | new size: 91
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 90
+pulled of EAST | new direction: WEST | new size: 90
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 89
+pulled of EAST | new direction: WEST | new size: 89
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 88
+pulled of EAST | new direction: WEST | new size: 88
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 87
+pulled of EAST | new direction: WEST | new size: 87
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 86
+pulled of EAST | new direction: WEST | new size: 86
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 85
+pulled of NORTH | new direction: SOUTH | new size: 85
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 84
+pulled of WEST | new direction: EAST | new size: 84
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 83
+pulled of WEST | new direction: EAST | new size: 83
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 82
+pulled of NORTH | new direction: SOUTH | new size: 82
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 0 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 1 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 2 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
 Junction 3 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 4 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 5 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 6 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 7 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 8 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 9 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 10 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 11 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 12 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 13 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 14 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 15 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 16
+pulled of SOUTH | new direction: NORTH | new size: 16
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 15
+pulled of SOUTH | new direction: NORTH | new size: 15
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 14
+pulled of EAST | new direction: WEST | new size: 14
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 13
+pulled of SOUTH | new direction: NORTH | new size: 13
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 12
+pulled of WEST | new direction: EAST | new size: 12
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 11
+pulled of WEST | new direction: EAST | new size: 11
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 11 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 12 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 13 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 14 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 15 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 16
+pulled of NORTH | new direction: SOUTH | new size: 16
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading EAST
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 17 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 18 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 19 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 20 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 21 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 22 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 23 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 24 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 25 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 26 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 27 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 28 heading WEST
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 29 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 29
+pulled of NORTH | new direction: SOUTH | new size: 29
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 28
+pulled of WEST | new direction: EAST | new size: 28
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 28 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 31 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 32 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 33 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 34 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 35 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 36 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 0 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 1 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 2 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 3 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 4 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 5 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 6 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 7 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 8 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 9 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 10 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 11 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 12 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 13 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 14 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 15 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 17 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 18 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 19 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 20 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 21 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 22 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 22
+pulled of WEST | new direction: EAST | new size: 22
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 22 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 23 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 24 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 25 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 26 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 27 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 28 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 31 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 32 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 33 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 34 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 35 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 36 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 36
+pulled of WEST | new direction: EAST | new size: 36
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 36 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 37 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 38 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 39 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 40 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 41 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 42 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 43 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 44 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 0 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 1 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 2 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
 Junction 3 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 4 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 5 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 6 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 7 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 8 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 9 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 10 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 11 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 12 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 13 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 14 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 15 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 17 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 18 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 18
+pulled of NORTH | new direction: SOUTH | new size: 18
+---------------------------------
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 18 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 19 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 19
+pulled of SOUTH | new direction: NORTH | new size: 19
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 18
+pulled of EAST | new direction: WEST | new size: 18
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 17
+pulled of NORTH | new direction: SOUTH | new size: 17
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 16
+pulled of NORTH | new direction: SOUTH | new size: 16
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 17 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 18 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 19 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 20 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 21 heading EAST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 21
+pulled of EAST | new direction: WEST | new size: 21
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 20
+pulled of NORTH | new direction: SOUTH | new size: 20
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 20 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 21 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 22 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 23 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 24 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 25 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 26 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 27 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 28 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 31 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 32 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 33 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 34 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 35 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 36 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 37 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 38 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 39 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 0 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 1 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 2 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
 Junction 3 heading SOUTH
-Junction 3 heading SOUTH
-Junction 0 heading EAST
-Junction 0 heading EAST
-Junction 3 heading SOUTH
-Junction 0 heading EAST
-Junction 0 heading EAST
-Junction 0 heading EAST
-Junction 1 heading NORTH
-Junction 0 heading EAST
-Junction 3 heading SOUTH
-Junction 0 heading EAST
-Junction 0 heading EAST
-Junction 0 heading EAST
-Junction 3 heading SOUTH
-Junction 0 heading EAST
-Junction 0 heading EAST
-Junction 0 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 4 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 5 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 6 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 7 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 8 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 9 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 10 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 11 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 12 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 13 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 14 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 15 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 17 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 18 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 19 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 20 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 21 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 22 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 23 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 24 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 25 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 26 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 27 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 28 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 29 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 30 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 31 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 32 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 33 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 34 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 35 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 36 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 37 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 38 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 39 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 40 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 41 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 42 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 43 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 44 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 45 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 46 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 47 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 48 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 49 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 50 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 51 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 52 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 53 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 54 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 55 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 56 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 56
+pulled of SOUTH | new direction: NORTH | new size: 56
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 55
+pulled of EAST | new direction: WEST | new size: 55
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 55 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 56 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 57 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 58 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 59 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 60 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 61 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 62 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 63 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 64 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 65 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 65
+pulled of NORTH | new direction: SOUTH | new size: 65
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 64
+pulled of EAST | new direction: WEST | new size: 64
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 63
+pulled of SOUTH | new direction: NORTH | new size: 63
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 62
+pulled of SOUTH | new direction: NORTH | new size: 62
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 61
+pulled of SOUTH | new direction: NORTH | new size: 61
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 60
+pulled of SOUTH | new direction: NORTH | new size: 60
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 59
+pulled of WEST | new direction: EAST | new size: 59
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 58
+pulled of NORTH | new direction: SOUTH | new size: 58
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 57
+pulled of NORTH | new direction: SOUTH | new size: 57
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 56
+pulled of WEST | new direction: EAST | new size: 56
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 55
+pulled of SOUTH | new direction: NORTH | new size: 55
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 54
+pulled of SOUTH | new direction: NORTH | new size: 54
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 53
+pulled of WEST | new direction: EAST | new size: 53
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 52
+pulled of WEST | new direction: EAST | new size: 52
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 51
+pulled of WEST | new direction: EAST | new size: 51
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 50
+pulled of WEST | new direction: EAST | new size: 50
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 50 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 51 heading EAST
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 52 heading EAST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 52
+pulled of EAST | new direction: WEST | new size: 52
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 51
+pulled of EAST | new direction: WEST | new size: 51
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 50
+pulled of SOUTH | new direction: NORTH | new size: 50
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 49
+pulled of WEST | new direction: EAST | new size: 49
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 48
+pulled of WEST | new direction: EAST | new size: 48
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 47
+pulled of NORTH | new direction: SOUTH | new size: 47
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 46
+pulled of WEST | new direction: EAST | new size: 46
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 45
+pulled of NORTH | new direction: SOUTH | new size: 45
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 44
+pulled of WEST | new direction: EAST | new size: 44
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 43
+pulled of SOUTH | new direction: NORTH | new size: 43
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 42
+pulled of SOUTH | new direction: NORTH | new size: 42
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 41
+pulled of NORTH | new direction: SOUTH | new size: 41
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 40
+pulled of NORTH | new direction: SOUTH | new size: 40
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 40 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 41 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 42 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 43 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 44 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 45 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 46 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 47 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 48 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 49 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 50 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 51 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 52 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 53 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 54 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 55 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 56 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 57 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 58 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 59 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 60 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 61 heading SOUTH
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 62 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 62
+pulled of WEST | new direction: EAST | new size: 62
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 61
+pulled of SOUTH | new direction: NORTH | new size: 61
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 60
+pulled of EAST | new direction: WEST | new size: 60
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 59
+pulled of SOUTH | new direction: NORTH | new size: 59
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 59 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 60 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 61 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 62 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 63 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 63
+pulled of SOUTH | new direction: NORTH | new size: 63
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 63 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 64 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 65 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 66 heading SOUTH
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 67 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 68 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 69 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 70 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 71 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 72 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 73 heading EAST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 73
+pulled of EAST | new direction: WEST | new size: 73
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 73 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 74 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 75 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 76 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 77 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 78 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 79 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 80 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 81 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 81
+pulled of SOUTH | new direction: NORTH | new size: 81
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 81 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 82 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 83 heading WEST
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 84 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 84
+pulled of SOUTH | new direction: NORTH | new size: 84
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 84 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 85 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 86 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 87 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 87
+pulled of WEST | new direction: EAST | new size: 87
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 87 heading EAST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 87
+pulled of EAST | new direction: WEST | new size: 87
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 86
+pulled of NORTH | new direction: SOUTH | new size: 86
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 85
+pulled of WEST | new direction: EAST | new size: 85
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 84
+pulled of WEST | new direction: EAST | new size: 84
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 83
+pulled of WEST | new direction: EAST | new size: 83
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 82
+pulled of NORTH | new direction: SOUTH | new size: 82
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 81
+pulled of NORTH | new direction: SOUTH | new size: 81
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 80
+pulled of EAST | new direction: WEST | new size: 80
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 79
+pulled of NORTH | new direction: SOUTH | new size: 79
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 78
+pulled of EAST | new direction: WEST | new size: 78
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 77
+pulled of SOUTH | new direction: NORTH | new size: 77
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 76
+pulled of EAST | new direction: WEST | new size: 76
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 76 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 77 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 78 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 79 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 80 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 0 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 1 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 2 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 3 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 4 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 5 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 6 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 7 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 8 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 9 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 10 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 11 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 12 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 13 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 14 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 15 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 17 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 18 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 19 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 20 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 21 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 22 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 23 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 24 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 25 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 26 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 27 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 28 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 31 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 32 heading SOUTH
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 33 heading EAST
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 34 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 35 heading EAST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 35
+pulled of EAST | new direction: WEST | new size: 35
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 34
+pulled of SOUTH | new direction: NORTH | new size: 34
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 33
+pulled of EAST | new direction: WEST | new size: 33
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 32
+pulled of SOUTH | new direction: NORTH | new size: 32
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 32 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 33 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 33
+pulled of WEST | new direction: EAST | new size: 33
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 32
+pulled of WEST | new direction: EAST | new size: 32
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 31
+pulled of WEST | new direction: EAST | new size: 31
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 30
+pulled of NORTH | new direction: SOUTH | new size: 30
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 29
+pulled of WEST | new direction: EAST | new size: 29
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 28
+pulled of WEST | new direction: EAST | new size: 28
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 28 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 31 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 32 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 33 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 34 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 35 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 36 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 37 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 38 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 39 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 40 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 41 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 42 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 43 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 44 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 45 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 46 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 47 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 48 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 49 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 50 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 51 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 52 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 53 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 54 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 55 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 56 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 57 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 58 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 59 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 60 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 61 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 62 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 63 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 64 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 65 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 66 heading NORTH
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 67 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 68 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 69 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 70 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 71 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 72 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 73 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 74 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 75 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 76 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 0 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 1 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 2 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 3 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 4 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 5 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 6 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 7 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 8 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 9 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 10 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 11 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 12 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 13 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 14 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 15 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 16 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 17 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 18 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 19 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 20 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 21 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 22 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 23 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 24 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 25 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 26 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 27 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 28 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 29
+pulled of NORTH | new direction: SOUTH | new size: 29
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 29 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 30 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 31 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 32 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 32
+pulled of NORTH | new direction: SOUTH | new size: 32
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 32 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 33 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 34 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 35 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 36 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 37 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 38 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 39 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 40 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 41 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 41
+pulled of WEST | new direction: EAST | new size: 41
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 41 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 42 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 43 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 44 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 45 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 46 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 47 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 48 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 49 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 50 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 51 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 52 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 53 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 54 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 55 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 56 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 57 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 58 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 58
+pulled of SOUTH | new direction: NORTH | new size: 58
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 58 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 59 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 60 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 61 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 62 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 63 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 64 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 65 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 66 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 67 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 68 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 69 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 69
+pulled of NORTH | new direction: SOUTH | new size: 69
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 69 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 70 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 71 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 72 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 72
+pulled of SOUTH | new direction: NORTH | new size: 72
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 72 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 73 heading EAST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 73
+pulled of EAST | new direction: WEST | new size: 73
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 72
+pulled of NORTH | new direction: SOUTH | new size: 72
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 71
+pulled of EAST | new direction: WEST | new size: 71
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 71 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 72 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 72
+pulled of NORTH | new direction: SOUTH | new size: 72
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 72 heading WEST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 72
+pulled of WEST | new direction: EAST | new size: 72
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 71
+pulled of WEST | new direction: EAST | new size: 71
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 70
+pulled of SOUTH | new direction: NORTH | new size: 70
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 69
+pulled of SOUTH | new direction: NORTH | new size: 69
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 68
+pulled of WEST | new direction: EAST | new size: 68
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 67
+pulled of WEST | new direction: EAST | new size: 67
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 66
+pulled of WEST | new direction: EAST | new size: 66
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 66 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 67 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 68 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 69 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 70 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 71 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 72 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 73 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 74 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 75 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 76 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 77 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 78 heading EAST
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 79 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 80 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 81 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 82 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 83 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 84 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 85 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 86 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 87 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 88 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 89 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 90 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 91 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 92 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 93 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 94 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 95 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 96 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 97 heading NORTH
+Explorer Mode: 1 | passage Size: 0 exit size: 3
+Junction 98 heading EAST
+Junction | Explorer Mode: 1 | passage Size: 0 exit size: 3
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 99 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 100 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 100
+pulled of NORTH | new direction: SOUTH | new size: 100
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 99
+pulled of NORTH | new direction: SOUTH | new size: 99
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+WALL AHEAD!
+size junctions -1: 98
+##################################
+i: 0 direction: SOUTH
+i: 1 direction: SOUTH
+i: 2 direction: EAST
+i: 3 direction: NORTH
+i: 4 direction: EAST
+i: 5 direction: NORTH
+i: 6 direction: EAST
+i: 7 direction: SOUTH
+i: 8 direction: SOUTH
+i: 9 direction: WEST
+i: 10 direction: SOUTH
+i: 11 direction: SOUTH
+i: 12 direction: WEST
+i: 13 direction: NORTH
+i: 14 direction: WEST
+i: 15 direction: SOUTH
+i: 16 direction: SOUTH
+i: 17 direction: SOUTH
+i: 18 direction: SOUTH
+i: 19 direction: EAST
+i: 20 direction: SOUTH
+i: 21 direction: EAST
+i: 22 direction: SOUTH
+i: 23 direction: EAST
+i: 24 direction: EAST
+i: 25 direction: SOUTH
+i: 26 direction: SOUTH
+i: 27 direction: WEST
+i: 28 direction: WEST
+i: 29 direction: WEST
+i: 30 direction: SOUTH
+i: 31 direction: WEST
+i: 32 direction: SOUTH
+i: 33 direction: SOUTH
+i: 34 direction: EAST
+i: 35 direction: NORTH
+i: 36 direction: EAST
+i: 37 direction: EAST
+i: 38 direction: EAST
+i: 39 direction: EAST
+i: 40 direction: SOUTH
+i: 41 direction: EAST
+i: 42 direction: EAST
+i: 43 direction: EAST
+i: 44 direction: NORTH
+i: 45 direction: EAST
+i: 46 direction: EAST
+i: 47 direction: NORTH
+i: 48 direction: WEST
+i: 49 direction: WEST
+i: 50 direction: WEST
+i: 51 direction: NORTH
+i: 52 direction: NORTH
+i: 53 direction: NORTH
+i: 54 direction: EAST
+i: 55 direction: NORTH
+i: 56 direction: WEST
+i: 57 direction: WEST
+i: 58 direction: NORTH
+i: 59 direction: NORTH
+i: 60 direction: EAST
+i: 61 direction: EAST
+i: 62 direction: NORTH
+i: 63 direction: WEST
+i: 64 direction: WEST
+i: 65 direction: NORTH
+i: 66 direction: NORTH
+i: 67 direction: EAST
+i: 68 direction: NORTH
+i: 69 direction: EAST
+i: 70 direction: EAST
+i: 71 direction: EAST
+i: 72 direction: SOUTH
+i: 73 direction: SOUTH
+i: 74 direction: EAST
+i: 75 direction: SOUTH
+i: 76 direction: WEST
+i: 77 direction: SOUTH
+i: 78 direction: EAST
+i: 79 direction: NORTH
+i: 80 direction: EAST
+i: 81 direction: NORTH
+i: 82 direction: NORTH
+i: 83 direction: NORTH
+i: 84 direction: WEST
+i: 85 direction: NORTH
+i: 86 direction: NORTH
+i: 87 direction: WEST
+i: 88 direction: WEST
+i: 89 direction: WEST
+i: 90 direction: WEST
+i: 91 direction: WEST
+i: 92 direction: SOUTH
+i: 93 direction: EAST
+i: 94 direction: SOUTH
+i: 95 direction: WEST
+i: 96 direction: SOUTH
+i: 97 direction: NORTH
+##################################
+pulled of EAST | new direction: WEST | new size: 98
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 97
+pulled of NORTH | new direction: SOUTH | new size: 97
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 96
+pulled of SOUTH | new direction: NORTH | new size: 96
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 95
+pulled of WEST | new direction: EAST | new size: 95
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 94
+pulled of SOUTH | new direction: NORTH | new size: 94
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 94 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 95 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 96 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 97 heading EAST
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 97
+pulled of EAST | new direction: WEST | new size: 97
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 96
+pulled of EAST | new direction: WEST | new size: 96
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 95
+pulled of EAST | new direction: WEST | new size: 95
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 94
+pulled of EAST | new direction: WEST | new size: 94
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 93
+pulled of EAST | new direction: WEST | new size: 93
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 92
+pulled of SOUTH | new direction: NORTH | new size: 92
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: NORTH
+NO WALL
+size junctions -1: 91
+pulled of WEST | new direction: EAST | new size: 91
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 90
+pulled of WEST | new direction: EAST | new size: 90
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 89
+pulled of WEST | new direction: EAST | new size: 89
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 88
+pulled of WEST | new direction: EAST | new size: 88
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 87
+pulled of WEST | new direction: EAST | new size: 87
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 87 heading EAST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 88 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 89 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 90 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 91 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 92 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 92
+pulled of NORTH | new direction: SOUTH | new size: 92
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 92 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 93 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 94 heading SOUTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 95 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 96 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 97 heading WEST
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 98 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 99 heading EAST
+Explorer Mode: 1 | passage Size: 1 exit size: 3
+Junction 100 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 101 heading EAST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 102 heading SOUTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 102
+pulled of SOUTH | new direction: NORTH | new size: 102
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 102 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 102
+pulled of NORTH | new direction: SOUTH | new size: 102
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 101
+pulled of EAST | new direction: WEST | new size: 101
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 100
+pulled of NORTH | new direction: SOUTH | new size: 100
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 99
+pulled of EAST | new direction: WEST | new size: 99
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: SOUTH
+NO WALL
+size junctions -1: 98
+pulled of NORTH | new direction: SOUTH | new size: 98
+---------------------------------
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 98 heading SOUTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 99 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 100 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 101 heading WEST
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 102 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 103 heading NORTH
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 104 heading NORTH
+Explorer Mode: 1 | passage Size: 2 exit size: 3
+Junction 105 heading NORTH
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 105
+pulled of NORTH | new direction: SOUTH | new size: 105
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: EAST
+NO WALL
+size junctions -1: 104
+pulled of NORTH | new direction: SOUTH | new size: 104
+---------------------------------
+---------------------------------
+Explore Mode: 0 | case: 0 | heading: WEST
+NO WALL
+size junctions -1: 103
+pulled of NORTH | new direction: SOUTH | new size: 103
+---------------------------------
+Explorer Mode: 1 | passage Size: 3 exit size: 4
+Junction 103 heading WEST

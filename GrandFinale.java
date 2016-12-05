@@ -10,7 +10,6 @@ public class GrandFinale {
 		public ArrayList<Integer> junctions = new ArrayList<Integer>();
 		public void resetJunctionCounter(){
 			junctionCounter = 0;
-			junctions = new ArrayList<Integer>();
 		}
 		public void add(int arrived){
 			this.junctions.add(arrived);
@@ -18,9 +17,9 @@ public class GrandFinale {
 		}
 		public void printJunction(){
 			int dir = junctions.get(junctions.size() - 1);
-			int index = junctions.indexOf(dir);
+			int index = junctions.lastIndexOf(dir);
 			String str = print(dir);
-			System.out.println("Junction " + index + " heading " + str);
+			print_nice("Junction " + index + " heading " + str);
 		}
 
 	}
@@ -48,20 +47,24 @@ public class GrandFinale {
 			robotData = new RobotData();
 			explorerMode = 1;
 			explore = 1;
-		} else if(robot.getRuns() != 0){
+		} else if(robot.getRuns() != 0 && pollRun == 0){
 			explore=0;
 		}
-		pollRun++;
+		if(explore == 0 && pollRun == 0){
+			printJunction();
+		}
 		robot.setHeading(exploreControl(robot));
+		pollRun++;
 	}
-	public int exploreControl(IRobot robot){	
+	public int exploreControl(IRobot robot){
+		if(explore == 0 && pollRun == 0) return FirstMove();
 		ArrayList<Integer> exits = nonWallExits(robot);
 		int exit = exits.size();
 		int direction = 0;
 		switch (exit){
 			case 1:
 				direction = deadEnd(robot, exits);
-				break;
+					break;
 			case 2:
 				direction = corridor(robot, exits);
 				break;
@@ -75,7 +78,10 @@ public class GrandFinale {
 	public void reset(){
 		pollRun = 0;
 		robotData.resetJunctionCounter();
-		explorerMode=1;
+	}
+	private int FirstMove(){
+		junctionCounter++;
+		return robotData.junctions.get(0);
 	}
 	//method which converts an absolute direction into a relative one
 	private int lookHeading(int direction, IRobot robot) {
@@ -83,34 +89,40 @@ public class GrandFinale {
 		int relative = ((direction - heading) % 4 + 4) % 4;
 		int absolute = IRobot.AHEAD + relative;
 		return robot.look(absolute);
-
+	}
+	private void print_nice(String print){
+		println("---------------------------");
+		println(print);
+		println("---------------------------");
 	}
 	private void printJunction(){
-		System.out.println("############################");
+		printHash();
 		for(int i = 0; i< robotData.junctions.size(); i++){
 			System.out.println("i: " + i + " direction: "+ direction(robotData.junctions.get(i)));
 		}
-		System.out.println("############################");
+		printHash();
+	}
+	private void printHash(){
+		println("##################################");
 	}
 	private void println(String str){
 		System.out.println(str);
 	}
 
 	private int deadEnd (IRobot robot, ArrayList<Integer> exits){
-		explorerMode = 0;
+		if(pollRun != 0) {
+			explorerMode = 0;
+		}
 		return exits.get(0);
 	}
 	private int crossRoad (IRobot robot, ArrayList<Integer> exits){
-		System.out.println(explore);
 		if(explore==1){
 			int heading = robot.getHeading();
 			ArrayList<Integer> passage = passageExits(robot);
 			int passageSize = passage.size();
-			//System.out.println("Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
 			String err2;
-			//passageSize == 3 && exits.size() == 4 || passageSize==2 && exits.size()==3
-			if (explorerMode==1) {
-				System.out.println("Explorer Mode: 1 | passage Size: " + passageSize + "exit size: " + exits.size());
+			if (explorerMode==1 && passageSize >= 1 && (pollRun != 0)) {
+				print_nice("Explorer Mode: 1 | passage Size: " + passageSize + " exit size: " + exits.size());
 				neverBefore(robot, heading);
 			}
 			if (passageSize != 0) {
@@ -120,39 +132,36 @@ public class GrandFinale {
 				if (explorerMode == 1) {
 					println("Junction | Explorer Mode: 1 | passage Size: " + passageSize + " exit size: " + exits.size());
 					explorerMode = 0;
-					//neverBefore(robot, heading);
 					return IRobot.NORTH + ((((heading - IRobot.NORTH) + 2) % 4 + 4) % 4);
 				}
 				int junctionSize = robotData.junctions.size() - 1;
-				//System.out.println("old table: ");
-				//printJunction();
 				int dir2 = robotData.junctions.get(junctionSize);
 				int dir = IRobot.NORTH + (((dir2-IRobot.NORTH) + 2) % 4 + 4) % 4;
 				robotData.junctions.remove(junctionSize);
 				err2 = "pulled of " + direction(dir2) + " | new direction: " + direction(dir)+" | new size: "+ robotData.junctions.size();
-				//neverBefore(robot,heading);
 				println("---------------------------------");
-				System.out.println("Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
+				println("Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
 				wall(dir, robot, junctionSize);
-				//System.out.println(err1);
-				System.out.println(err2);
+				println(err2);
 				println("---------------------------------");
-				//System.out.println("new table: ");
-				//printJunction();
 				return dir;
 			}
-		} else {
 
+		} else {
+			return getIntelligentDir(robot);
+		}
+	}
+	private int getIntelligentDir(IRobot robot){
+		println("The Junctioncounter has a value of: "+ junctionCounter);
+		if(junctionCounter<robotData.junctions.size()){
+			println("This is not the last junction.");
+			int dir = robotData.junctions.get(junctionCounter);
+			print_nice("direction: " + print(dir));
 			junctionCounter++;
-			System.out.println(junctionCounter);
-			printJunction();
-			if(junctionCounter<robotData.junctions.size()){
-				System.out.println("not last");
-				return robotData.junctions.get(junctionCounter);
-			} else{
-				System.out.println("last");
-				return lastDir(robot);
-			}
+			return dir;
+		} else{
+			println("This is the last junction.");
+			return lastDir(robot);
 		}
 	}
 	private void neverBefore(IRobot robot, int heading){
@@ -189,18 +198,13 @@ public class GrandFinale {
 		int heading = robot.getHeading();
 		ArrayList<Integer> passage = passageExits(robot);
 		int coming = IRobot.NORTH + (((robot.getHeading()-IRobot.NORTH)+2)%4+4)%4;
-		int index = exits.indexOf(coming);
+		int indexGo = exits.indexOf(coming);
 		int going = exits.indexOf(robot.getHeading());
-		System.out.println(print(coming));
-
 			if(explore==1){
-				int indexGo = exits.indexOf(coming);
 				int indexTo = exits.indexOf(heading);
 				int passageSize = passage.size();
-				//System.out.println( "Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
 				String err2;
-				if(indexTo!= -1) {
-					//System.out.println("We are in a corridor.");
+				if(indexTo != -1) {
 					if(passage.size()>=1 || explorerMode == 0) {
 						if (indexGo != -1) {
 							exits.remove(indexGo);
@@ -213,11 +217,11 @@ public class GrandFinale {
 						return coming;
 					}
 				}
-				if(explorerMode==1){
+				if(explorerMode==1 && passageSize >= 1  && (pollRun != 0) ){
 					System.out.println("Corridor | Explorer Mode: 1 | passage Size: " + passageSize + " exit size: " + exits.size());
 					neverBefore(robot, heading);
 				}
-				//not meant to go into junctions
+
 				if(passage.size()>=1){
 					explorerMode=1;
 					exits.remove(indexGo);
@@ -231,38 +235,25 @@ public class GrandFinale {
 						System.out.println("Explore Mode: " + explorerMode + " | case: " + passageSize + " | heading: " + direction(heading));
 						System.out.println("CORNER");
 						int junctionSize = robotData.junctions.size() - 1;
-
-						//System.out.println("old table: ");
-						//printJunction();
-
 						int dir2 = robotData.junctions.get(junctionSize);
 						int dir = IRobot.NORTH + (((dir2-IRobot.NORTH) + 2) % 4 + 4) % 4;
-
 						robotData.junctions.remove(junctionSize);
 						err2 = "pulled of " + direction(dir2) + " | new direction: " + direction(dir)+" | new size: "+ robotData.junctions.size();
 						wall(dir, robot, junctionSize);
 						System.out.println(err2);
 						System.out.println("---------------------------------");
-						//System.out.println("new table: ");
-						//printJunction();
+
 						return dir;
 					}
 				}
 			} else if(going!=-1){
-				if(index!=-1){
-					exits.remove(index);
+				if(indexGo!=-1){
+					exits.remove(indexGo);
 				}
 				return exits.get(0);
 			}
 			else {
-				junctionCounter++;
-				if(junctionCounter<robotData.junctions.size()){
-					System.out.println("not last");
-					return robotData.junctions.get(junctionCounter);
-				} else{
-					System.out.println("last");
-					return lastDir(robot);
-				}
+				return getIntelligentDir(robot);
 			}	
 
 
