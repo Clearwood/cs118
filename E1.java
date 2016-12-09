@@ -5,14 +5,18 @@ public class E1 {
 	private static int maxJunctions = 10000;
 	private static int junctionCounter;
 	class RobotData {
+		//defining an arraylist of typ junctionrecorder
 		public ArrayList<junctionRecorder> junctions = new ArrayList<junctionRecorder>();
+		//method to reset the junctioncounter
 		public void resetJunctionCounter(){
 			junctionCounter = 0;
 		}
+		//function to add coordinates and direction to the Junctionrecorder
 		public void add(int x, int y, int arrived){
 			junctionRecorder arrive = new junctionRecorder(x,y,arrived);
 			this.junctions.add(arrive);
 		}
+		//function to print out newly encountered junctions
 		public void printJunction(){
 			junctionRecorder last = junctions.get(junctions.size() - 1);
 			int index = junctions.indexOf(last);
@@ -38,15 +42,19 @@ public class E1 {
 
 	}
 	private RobotData robotData;
+	//defining a class to record the junctions in
 	class junctionRecorder{
+		//defining three private ints to store the x and y location and the direction into
 		private int x;
 		private int y;
 		private int arrived;
+		//defining a constructor method
 		public junctionRecorder(int x, int y, int arrived){
 			this.x = x;
 			this.y = y;
 			this.arrived = arrived;
 		}
+		//defining methods to retrieve the data from the object
 		public int getX(){
 			return this.x;
 		}
@@ -57,14 +65,19 @@ public class E1 {
 			return this.arrived;
 		}
 	}
+	//main control method which is being colled by the Polled Controller Wrapper
 	public void controlRobot(IRobot robot) {
+		//initiates a new store object at the first move of the first run
 		if((robot.getRuns() == 0) && (pollRun == 0)){
 			robotData = new RobotData();
 		}
+		//increments the pollRun counter to count the quantity of moves
 		pollRun++;
 		ArrayList<Integer> exits = nonWallExits(robot);
+		//stores the number of exits
 		int exit = exits.size();
 		int direction = 0;
+		//switches dependent on the number of exits to different methods which control the robot
 		switch (exit){
 			case 1:
 				direction = deadEnd(robot, exits);
@@ -94,7 +107,7 @@ public class E1 {
 
 	}
 
-
+// at a deadend this method return the only possible way to get out
 	private int deadEnd (IRobot robot, ArrayList<Integer> exits){
 		return exits.get(0);
 	}

@@ -170,9 +170,9 @@ public class GrandFinale {
         return robot.look(absolute);
     }
 
-
+    //if it is not the first move it changes the explorerMode  to backtrack and returns the only way out.
     private int deadEnd(IRobot robot, ArrayList<Integer> exits) {
-        if (pollRun != 0) {
+        if (pollRun != 0 && explore==1) {
             explorerMode = 0;
         }
         return exits.get(0);
