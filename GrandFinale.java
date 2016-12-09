@@ -105,6 +105,7 @@ public class GrandFinale {
     //creates class to store the directions
     private RobotData robotData;
 
+    //main control method which is being colled by the Polled Controller Wrapper
     public void controlRobot(IRobot robot) {
         /*sets the mode to Explore and activates the exploration of the maze at
         the first encounter of a new maze*/
@@ -116,11 +117,11 @@ public class GrandFinale {
         else if (robot.getRuns() != 0 && pollRun == 0) {
             explore = 0;
         }
-        robot.setHeading(exploreControl(robot));
+        robot.setHeading(mainControl(robot));
         pollRun++;
     }
 
-    public int exploreControl(IRobot robot) {
+    public int mainControl(IRobot robot) {
         //fetches an ArrayList of all available exits
         ArrayList<Integer> exits = nonWallExits(robot);
         int exit = exits.size();
@@ -239,7 +240,7 @@ public class GrandFinale {
             return lastDir(robot);
         }
     }
-//adds a direction to the arraylist
+//adds a direction to the arraylist and increases the junction counter
     private void neverBefore(IRobot robot, int heading) {
         robotData.add(heading);
         junctionCounter++;
@@ -269,6 +270,7 @@ public class GrandFinale {
         int coming = IRobot.NORTH + (((robot.getHeading() - IRobot.NORTH) + 2) % 4 + 4) % 4;
         int indexGo = exits.indexOf(coming);
         int going = exits.indexOf(robot.getHeading());
+        //stores the return of the indexOf function for each heading of the arraylist exits in a separate int
         int indexSouth = exits.indexOf(IRobot.SOUTH);
         int indexNorth = exits.indexOf(IRobot.NORTH);
         int indexEast = exits.indexOf(IRobot.EAST);
