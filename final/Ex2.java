@@ -2,35 +2,33 @@ import uk.ac.warwick.dcs.maze.logic.IRobot;
 
 import java.util.*;
 
-public class Ex1 {
+public class Ex2 {
     private int pollRun = 0;
     private static int maxJunctions = 10000;
     private static int junctionCounter;
     private int explorerMode;
 
     class RobotData {
-        //defining an arraylist of type junctionrecorder
-        public ArrayList<junctionRecorder> junctions = new ArrayList<junctionRecorder>();
+        //defining an arraylist of type integer
+        public ArrayList<Integer> junctions = new ArrayList<Integer>();
 
         //method to reset the junctioncounter
         public void resetJunctionCounter() {
             junctionCounter = 0;
-            junctions = new ArrayList<junctionRecorder>();
+            junctions = new ArrayList<Integer>();
         }
 
-        //function to add coordinates and direction to the Junctionrecorder
-        public void add(int x, int y, int arrived) {
-            junctionRecorder arrive = new junctionRecorder(x, y, arrived);
-            this.junctions.add(arrive);
+        //function to add direction
+        public void add(int arrived) {
+            this.junctions.add(arrived);
             this.printJunction();
         }
 
         //function to print out newly encountered junctions
         public void printJunction() {
-            junctionRecorder last = junctions.get(junctions.size() - 1);
-            int index = junctions.indexOf(last);
+            int dir = junctions.get(junctions.size() - 1);
+            int index = junctions.lastIndexOf(dir);
             String str = "";
-            int dir = last.getDir();
             switch (dir) {
                 case IRobot.NORTH:
                     str = "NORTH";
@@ -45,41 +43,13 @@ public class Ex1 {
                     str = "EAST";
                     break;
             }
-            System.out.println("Junction " + index + " (x=" + last.getX() + " ,y=" + last.getY()
-                    + ") heading " + str);
+            System.out.println("Junction " + index + " heading " + str);
         }
 
     }
-
-    private RobotData robotData;
 
     //defining a class to record the junctions in
-    class junctionRecorder {
-        //defining three private ints to store the x and y location and the direction into
-        private int x;
-        private int y;
-        private int arrived;
-
-        //defining a constructor method
-        public junctionRecorder(int x, int y, int arrived) {
-            this.x = x;
-            this.y = y;
-            this.arrived = arrived;
-        }
-
-        //defining methods to retrieve the data from the object
-        public int getX() {
-            return this.x;
-        }
-
-        public int getY() {
-            return this.y;
-        }
-
-        public int getDir() {
-            return this.arrived;
-        }
-    }
+    private RobotData robotData;
 
     //main control method which is being colled by the Polled Controller Wrapper
     public void controlRobot(IRobot robot) {
@@ -88,24 +58,13 @@ public class Ex1 {
             robotData = new RobotData();
             explorerMode = 1;
         }
-        int direction = exploreControl(robot);
+
         //increments the pollRun counter to count the quantity of moves
         pollRun++;
-        robot.setHeading(direction);
+        robot.setHeading(mainControl(robot));
     }
 
-    //searches through the ArrayList if a junction has been encountered before this returns the direction which it headed to
-    // when first encountering this junction. Otherwise it returns zero.
-    public int searchJunction(int x, int y) {
-        for (int i = 0, j = robotData.junctions.size(); i < j; i++) {
-            if (robotData.junctions.get(i).getX() == x && robotData.junctions.get(i).getY() == y) {
-                return robotData.junctions.get(i).getDir();
-            }
-        }
-        return 0;
-    }
-
-    public int exploreControl(IRobot robot) {
+    public int mainControl(IRobot robot) {
         ArrayList<Integer> exits = nonWallExits(robot);
         //stores the number of exits
         int exit = exits.size();
@@ -140,6 +99,7 @@ public class Ex1 {
         int relative = ((direction - heading) % 4 + 4) % 4;
         int absolute = IRobot.AHEAD + relative;
         return robot.look(absolute);
+
     }
 
     // at a deadend this method return the only possible way to get out
@@ -161,15 +121,16 @@ public class Ex1 {
             explorerMode = 1;
             return passage.get(randomizer(passageSize));
         } else {
-            //returns the opposite direction of how the robot came to this crossroad
-            return IRobot.NORTH + (((searchJunction(robot.getLocation().x, robot.getLocation().y) + 2) % 4 + 4) % 4);
+            int dir = IRobot.NORTH + (((robotData.junctions.get(robotData.junctions.size() - 1) + 2) % 4 + 4) % 4);
+            robotData.junctions.remove(robotData.junctions.size() - 1);
+            return dir;
         }
 
     }
 
-    //adds Location and entry heading onto the ArrayList
+    //adds heading to junction counter
     private void neverBefore(IRobot robot, int heading) {
-        robotData.add(robot.getLocation().x, robot.getLocation().y, heading);
+        robotData.add(heading);
         junctionCounter++;
     }
 
@@ -187,13 +148,19 @@ public class Ex1 {
                 return passage.get(randomizer(passageSize));
             default:
                 //returns opposite direction on how the robot encountered the junctions the first time
-                return IRobot.NORTH + (((searchJunction(robot.getLocation().x, robot.getLocation().y) + 2) % 4 + 4) % 4);
+
+                int dir = IRobot.NORTH + (((robotData.junctions.get(robotData.junctions.size() - 1) + 2) % 4 + 4) % 4);
+                robotData.junctions.remove(robotData.junctions.size() - 1);
+                return dir;
+
         }
+
     }
 
     //for an arraylist of size n it gives back a valid index for a item of that arraylist
     private int randomizer(int n) {
         return (int) (Math.random() * n);
+
     }
 
     //regardless whether it is a corner or a corridor this method returns the only other way out if this method has not been called at the very
@@ -207,6 +174,7 @@ public class Ex1 {
         } else {
             return exits.get(randomizer(2));
         }
+
     }
 
     //checks if there is a wall in the direction to the robot which was parsed in
@@ -215,6 +183,7 @@ public class Ex1 {
             return direction;
         } else {
             return 0;
+
         }
     }
 
@@ -226,6 +195,7 @@ public class Ex1 {
             if (lookHeading(direction, robot) == IRobot.PASSAGE) {
                 passage.add(direction);
             }
+
         }
         return passage;
     }
